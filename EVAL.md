@@ -1,4 +1,4 @@
-Session 1: 
+# Session 1: 
 
 [Anthropic] Using model 'claude-sonnet-4-6'
 First run detected — initializing memory...
@@ -219,7 +219,7 @@ See you soon! 🙂
 
 
 
-After session memory state:
+## After session memory state:
 user_profile.json: 
 {
   "demographic_info": {},
@@ -288,7 +288,7 @@ cpp_types_and_variables.json:
 
 
 
-Session 2:
+#Session 2:
 
 
 [Anthropic] Using model 'claude-sonnet-4-6'
@@ -510,7 +510,7 @@ See you next session! 👋
 
 
 
-After session memory state:
+## After session memory state:
 user_profile.json: 
 {
   "demographic_info": {},
@@ -608,8 +608,8 @@ cpp_types_and_variables.json:
 
 
 
-Separate Run (with cleared memory):
-Session 1: 
+# Separate Run (with cleared memory):
+# Session 1: 
 [Anthropic] Using model 'claude-sonnet-4-6'
 First run detected — initializing memory...
   ✓ Memory initialized.
@@ -783,7 +783,7 @@ See you next time, Baraa — you're off to a wonderful start! 😊
 [Memory] All updates complete.
 
 
-After session memory state:
+## After session memory state:
 user_profile.json: 
 {
   "demographic_info": {
@@ -835,7 +835,7 @@ python_print.json:
 ----------------------------------------------------
 
 
-#Evaluation:
+# Evaluation:
 
 whether multi-turn context held up: 
 this has worked well consistently (in the above recorded runs and in my own testing)
