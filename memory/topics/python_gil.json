@@ -1,0 +1,7 @@
+{
+  "id": "python_gil",
+  "title": "The Python Global Interpreter Lock (GIL)",
+  "short_description": "The GIL is a mutex in CPython that allows only one thread to execute Python bytecode at a time. It simplifies memory management but limits true thread-based parallelism for CPU-bound tasks.",
+  "user_level": "beginner",
+  "note": "Introduced GIL concept. Level set to beginner (discussion occurred). No application or quiz evidence yet."
+}

@@ -1,0 +1,7 @@
+Uncertain about user level on the GIL — they're described as a Python generalist but "new to parallelism," and I don't yet know how deep their CPython internals knowledge goes. They may have heard of the GIL without understanding its mechanics, or they may have no exposure at all.
+
+Observed pattern: The user initially had concurrency and parallelism reversed, suggesting they approach new concepts by building on intuition rather than prior reading. They corrected quickly when given a clear explanation, so they respond well to direct corrective framing rather than Socratic probing. This isn't in the profile yet.
+
+One thing to do differently: Before explaining the GIL, ask a quick calibration question — e.g., "Have you run into threading in Python before, or is this all new?" — to avoid pitching too low or too high. I skipped this kind of check last session and had to correct a misconception mid-explanation.
+
+One thing to watch for: Whether the user conflates the GIL with threading being entirely useless. A common beginner mistake is concluding "GIL = threads are pointless," missing the I/O-bound use case. Probe this explicitly after the initial GIL explanation to see if they land in that trap.

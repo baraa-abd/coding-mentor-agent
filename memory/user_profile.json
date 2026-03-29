@@ -1,0 +1,7 @@
+{
+  "demographic_info": {},
+  "general_coder_level": "unknown",
+  "language_skill_levels": {},
+  "user_preferences": "",
+  "user_goals": "Learn to build parallelizable Python programs, with particular interest in asyncio. Currently following a learning path covering concurrency vs. parallelism and the GIL."
+}

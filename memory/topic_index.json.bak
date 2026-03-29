@@ -1,0 +1,6 @@
+{
+  "concurrency_vs_parallelism": {
+    "title": "Concurrency vs. Parallelism",
+    "short_description": "Concurrency means managing multiple tasks that take turns executing, while parallelism means tasks literally run simultaneously on multiple CPUs/cores. Understanding the difference is essential for choosing the right Python tool."
+  }
+}

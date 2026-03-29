@@ -1,0 +1,16 @@
+[
+  {
+    "session_id": "2026_03_28T23_09_49",
+    "summary": "The user, a Python generalist new to parallelism, discussed the learning path for building parallelizable Python programs, with particular interest in `asyncio`. They covered the foundational distinction between concurrency and parallelism — initially having the two concepts reversed — and correctly understood the corrected explanation: parallelism means tasks run simultaneously on multiple CPUs, while concurrency means tasks take turns on a single thread. The session ended with the user ready to move on to learning about the GIL.",
+    "topics": [
+      {
+        "id": "concurrency_vs_parallelism",
+        "title": "Concurrency vs. Parallelism"
+      },
+      {
+        "id": "python_gil",
+        "title": "The Python Global Interpreter Lock (GIL)"
+      }
+    ]
+  }
+]
